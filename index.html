@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="emailApp">
+    <head>
+        <title>Email App</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <header class="header" role="banner">
+            <div class="header__text">
+                <p>Angular Email App</p>
+            </div>
+        </header>
+        <main class="main" role="main">
+            <div ng-view class="flex"></div>
+        </main>
+    <!-- jQuery Version 3.1.0 -->
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        
+    <!-- AngularJS Version 1.5.7 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">  </script>
+        
+    <!-- AngularJS Route Module 1.5.7 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+        
+    <!-- Javascript Files -->
+        <script src="js/script.js"></script>
+        
+        <!-- Controllers -->
+        <script src="js/controllers/EmailCtrl.js"></script>
+        <script src="js/controllers/InboxCtrl.js"></script>
+        
+        <!-- Factory -->
+        <script src="js/factories/EmailFactory.js"></script>
+        <script src="js/factories/InboxFactory.js"></script>
+        
+    </body>
+</html>
